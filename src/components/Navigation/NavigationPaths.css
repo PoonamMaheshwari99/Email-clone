@@ -1,0 +1,42 @@
+.NavigationPaths{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border-top-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    padding: 0px 25px;
+    margin-right: 20px;
+}
+
+.NavigationPaths svg {
+    color: rgb(94,94,94);
+    font-size: 20px;
+    width: 20px;
+}
+
+.NavigationPaths h4{
+    font-size: 14px;
+    flex: 1;
+    margin-left: 10px;
+    font-weight: normal;
+}
+.NavPathsContainer a{
+    text-decoration: none;
+    color: rgb(94,94,94);
+}
+
+.NavigationPaths p{
+    
+    color: rgb(94,94,94);
+    font-size: 12px;
+}
+
+.NavPathsContainer:hover
+{
+    cursor: pointer;
+    background-color: rgba(5, 5, 5, 0.027);
+
+}
+ 
+
+

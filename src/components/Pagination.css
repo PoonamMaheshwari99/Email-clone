@@ -1,0 +1,38 @@
+.Pagination{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+    justify-content: space-between;
+
+}
+
+.Pagination svg {
+    font-size: 10px;
+}
+
+.Paginationright{
+    display: flex;
+    align-items: center;
+}
+
+.Paginationright p{
+    font-size: 13px;
+}
+
+.Pagination .PaginationLeft{
+    display: flex;
+    
+   
+  
+}
+
+.PaginationLeft input{
+   
+   
+   flex: 1;
+   font-size: 15px;
+   padding-left: 10px;
+   letter-spacing: 1px;
+   padding-bottom: 40px;
+}

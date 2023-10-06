@@ -1,0 +1,26 @@
+.SideNav{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(190, 199, 199, 0.11);
+  height: 100vh;
+  
+ 
+}
+
+.newMail{
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+  margin-left: 10px !important;
+  max-width: 150px !important;
+  background-color: rgba(16, 15, 15, 0.262) !important;
+  
+  }
+
+  
+
+
+
+
+
+
+  

@@ -1,0 +1,35 @@
+.emailbody{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    justify-content: space-between;
+    padding: 0px 10px;
+    height: 40px;
+}
+.emailbody:hover{
+    box-shadow: 2px 2px 4px rgb(208, 201, 201);
+    cursor: pointer;
+
+}
+.emailbody .emailbodyleft{
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+    flex:20%;
+}
+
+.emailbody .emailbodymiddle{
+    display: flex;
+    align-items: center;
+    flex:60%;
+    
+}
+
+.emailbody .emailbodyright{
+    display: flex;
+    align-items: center;
+    flex: 20%;
+    
+}
+
+

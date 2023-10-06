@@ -1,0 +1,77 @@
+.newInbox{
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+    min-width: 500px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.newInbox .Top{
+display: flex;
+justify-content: space-between;
+background: #333;
+color:#fff;
+align-items: center;
+padding: 7px 15px;
+
+}
+
+ .TopLeft span{
+    font-size: 14px;
+}
+
+.newMail .Top .TopRight svg{
+    font-size: 18px;
+}
+
+.newMail .Top .TopRight svg:hover{
+    background: #545454;
+    cursor: pointer;
+}
+
+.Middle{
+    display: flex;
+}
+
+.form{
+   display: flex; 
+   flex-direction: column;
+   width:100%;
+   
+}
+
+.form input,textarea{
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    padding: 0px 20px;
+    border:0px;
+    border-bottom: 1px solid  rgb(236, 231, 231);
+    background-color: rgb(240, 235, 235);
+    
+   
+}
+
+.form  textarea{
+    height: auto;
+    
+}
+.Bottom{
+    background-color: rgb(240, 235, 235);
+    display: flex;
+    padding: 12px;
+}
+
+.Bottom button{
+    cursor: pointer;
+    border: 0;
+    background-color: aqua;
+    font-size: 17px;
+    
+}
+
+
+
+
+
